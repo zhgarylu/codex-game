@@ -1,0 +1,9 @@
+dist/
+__pycache__/
+node_modules/
+reference/
+# Local recording intermediates and delivery diagnostics
+artifacts/recording-raw/
+artifacts/recording-framing-check.png
+artifacts/playthrough-delivery-status.json
+artifacts/validation-summary.json

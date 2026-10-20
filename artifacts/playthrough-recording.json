@@ -1,0 +1,98 @@
+{
+  "capture": "Playwright browser viewport recording of the actual realtime game",
+  "video": "recording-raw/actual-playthrough.webm",
+  "audio": "recording-raw/actual-game-audio.webm",
+  "audio_offset_seconds": 2.309735059738159,
+  "viewport": [
+    1600,
+    1000
+  ],
+  "view_zoom": 0.75,
+  "game_state_modified": false,
+  "clock_mocked": false,
+  "result": {
+    "title": "今夜，温暖了六位客人。",
+    "score": "1125",
+    "stars": "5星",
+    "details": "6 / 6\n成功出餐\n6\n完美火候\n6\n最高连击\n65s\n营业时长"
+  },
+  "duration_wall_seconds": 78.12651691500014,
+  "browser_errors": [],
+  "events": [
+    {
+      "time": 0.74,
+      "event": "进入游戏",
+      "caption": "真实浏览器试玩｜方向键移动，Z 互动，X 返回"
+    },
+    {
+      "time": 2.719,
+      "event": "展示四色角色",
+      "caption": "BLUE / GREEN / YELLOW / RED：选择喜欢的厨师颜色"
+    },
+    {
+      "time": 5.918,
+      "event": "选择 BLUE 开始",
+      "caption": "本轮选择 BLUE，开始 90 秒拉面挑战"
+    },
+    {
+      "time": 7.35,
+      "event": "第1碗：月见白汤",
+      "caption": "第 1 碗：月见白汤｜按左侧订单准备食材"
+    },
+    {
+      "time": 10.641,
+      "event": "冰箱取材",
+      "caption": "靠近 FRIDGE，面朝冰箱按 Z，选择对应汤底与拉面"
+    },
+    {
+      "time": 14.381,
+      "event": "煮汤菜单",
+      "caption": "到 COOK 按 Z，选择轻柔搅拌，开始煮汤和面"
+    },
+    {
+      "time": 15.723,
+      "event": "实际火候控制",
+      "caption": "指针进入绿色区间，再按 Z 捞面；过久会煮糊"
+    },
+    {
+      "time": 18.936,
+      "event": "切配",
+      "caption": "移动到 CHOP，选择订单所需配料，按 Z 确认"
+    },
+    {
+      "time": 21.045,
+      "event": "装碗出餐",
+      "caption": "到 BOWL 按 Z 出餐，配方正确和完美火候都有加分"
+    },
+    {
+      "time": 22.236,
+      "event": "第2碗：白汤叉烧",
+      "caption": "第 2 碗：白汤叉烧｜按左侧订单准备食材"
+    },
+    {
+      "time": 32.306,
+      "event": "第3碗：香菇白汤",
+      "caption": "第 3 碗：香菇白汤｜按左侧订单准备食材"
+    },
+    {
+      "time": 42.629,
+      "event": "第4碗：味噌月见",
+      "caption": "第 4 碗：味噌月见｜按左侧订单准备食材"
+    },
+    {
+      "time": 52.741,
+      "event": "第5碗：香菇白汤",
+      "caption": "第 5 碗：香菇白汤｜按左侧订单准备食材"
+    },
+    {
+      "time": 63.137,
+      "event": "第6碗：白汤叉烧",
+      "caption": "第 6 碗：白汤叉烧｜按左侧订单准备食材"
+    },
+    {
+      "time": 72.554,
+      "event": "五星结算",
+      "caption": "6 碗全部完成！本局 1125 分、5 星，随时可以重新开店"
+    }
+  ]
+}

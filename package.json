@@ -1,0 +1,14 @@
+{
+  "name": "ramen-gate",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node scripts/serve.mjs",
+    "preview": "node scripts/serve.mjs --dist",
+    "lint": "node scripts/lint.mjs",
+    "test": "node --test tests/engine.test.mjs",
+    "test:e2e": "python tests/browser_test.py",
+    "build": "node scripts/build.mjs"
+  }
+}

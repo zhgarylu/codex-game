@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f7f1e5"><meta name="description" content="RAMEN GATE：四色像素厨师，在俯视厨房中移动，与工作站互动制作拉面。">
+  <title>RAMEN GATE · 拉面小厨房</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Ctext y='52' font-size='52'%3E🍜%3C/text%3E%3C/svg%3E">
+  <link rel="stylesheet" href="./src/style.css">
+</head>
+<body>
+  <header class="site-header"><a class="brand" href="./" aria-label="RAMEN GATE 首页"><span class="brand-mark">麺</span><span>RAMEN GATE<small>一间小厨房，一碗好拉面</small></span></a><div class="header-tools"><span class="open-sign"><i></i> 今晚营业中</span><button id="sound" class="icon-button" aria-label="开启音效" aria-pressed="false">♪ <span>音效关</span></button><button id="help" class="icon-button" aria-label="查看玩法">? <span>玩法</span></button></div></header>
+  <main id="app"></main>
+  <footer><span>一碗热面，一点小小的成就感。</span><span>演示参考可玩原型 <span class="footer-dot">·</span> 无需登录</span></footer>
+  <div id="toast" role="status" aria-live="polite"></div>
+  <dialog id="help-dialog"><button class="close-dialog" aria-label="关闭玩法">×</button><span class="eyebrow">HOW TO PLAY</span><h2>好面，要有好火候。</h2><ol><li>方向键或 WASD 移动，触屏使用下方方向键。靠近工作站后按 Z 或点 A 互动。</li><li>FRIDGE 选汤底；CHOP 选配料；COOK 煮面。火候进入绿色时再按 Z 捞面。</li><li>移动到 BOWL，按 Z 出餐。按订单做对即可得分，完美火候和连击加分。</li><li>90 秒内完成 6 碗获胜；错单或客人等太久会失去一颗心，失去 3 颗心则结束。</li></ol><p class="help-keys">方向键：移动 / 菜单选择 · Z：A 互动 / 确认<br>X：B 取消 · Enter：Start 暂停 / 继续 · P：Select 暂停<br>清空当前碗：R · 重新煮面：COOK 工作站</p><button class="primary close-help">知道了，开煮！</button></dialog>
+  <script type="module" src="./src/app.js"></script>
+</body>
+</html>
